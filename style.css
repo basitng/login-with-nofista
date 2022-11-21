@@ -1,0 +1,48 @@
+/* DRY PRINCIPLE: DON'T REPEAT YOURSELF  */
+/* VARIABLES  */
+:root {
+  --bg: #f4f2f3;
+  --primary: #fb7160;
+  --text-color: #9a9a9a;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "poppins";
+  background-color: var(--bg);
+  /* VH Viewport Height  */
+  height: 100vh;
+  /* This code puts all content to the center of the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 60%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: -1px -12px 234px -60px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -12px 234px -60px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -12px 234px -60px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+}
+
+.nafkem img {
+  width: 100%;
+  height: 80vh;
+  object-fit: contain;
+}
+/* To comment use ***ctrl + / ****  */
+.buhari {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pet {
+  color: var(--primary);
+}
+.buhari .heading h1 {
+  font-family: "poppins";
+}
